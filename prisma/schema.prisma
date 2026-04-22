@@ -40,6 +40,8 @@ model Gym {
   phone       String?
   latitude    Decimal
   longitude   Decimal
-
+  
+  checkIns CheckIn[]
+  
   @@map("gyms")
 }
